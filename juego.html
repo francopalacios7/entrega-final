@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juguemos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <svg width="200" height="80">
+                <rect x="43" y="5" width="62" height="37" rx="5" fill="#F0E9D2" class="svg-exterior"></rect>
+                <rect x="51" y="10" width="53" height="24" rx="5" fill="#495579" class="svg-interior"></rect>
+                <polygon points="55 46 ,92 43,117 62,30 62" fill="#F0E9D2" class="svg-exterior"></polygon>
+                <polygon points="59 47 ,92 48,105 57,42 59" fill="#495579" class="svg-interior"></polygon>
+            </svg>
+            <ul>
+                <li class="botones-nav"><a href="historia.html">HISTORIA</a></li>
+                <li class="botones-nav"><a href="#">JUGUEMOS</a></li>
+            </ul>
+        </nav>
+    </header>  
+
+    <main>
+            <section>
+                <div class="contenedor">
+                    <img class="imagen-inicio" src="./imagenes/codigo.jpg" alt="imagen-codigo" />
+                    <h1 class="centrado" > JUGUEMOS UN POCO </h1>
+                </div>
+            </section>  
+            <section class="section-juego">
+                <h2 class="titulo-juego">Armemos el rompecabezas y veamos que imagen es...</h2>
+                <div class="display-juego">
+                    <div class="tarjetas-juego1">
+                        <p>Arrastre y suelte la imagen aqui</p>
+                    </div>
+                    <div class="tarjetas-juego2">
+                        <p>Arrastre y suelte la imagen aqui</p>
+                    </div>
+                    <div class="tarjetas-juego3">
+                        <p>Arrastre y suelte la imagen aqui</p>
+                    </div>
+                </div>
+            </section>
+            <div class="display-juego">
+                <div>
+                    <img class="tarjeta1" src="./imagenes/Rompe3.png" draggable="true" alt="">
+                </div>
+                <div>
+                    <img class="tarjeta2" src="./imagenes/Rompe1.png" draggable="true" alt="">
+                </div>
+                <div>
+                    <img class="tarjeta3" src="./imagenes/Rompe2.png" draggable="true" alt="">
+                </div>
+            </div>
+            <a href="./juego.html" class="reiniciar">Reiniciar</a>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
